@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="{r}R]DD5s*Jcbp#%_R3D">sprite</variable></variables><block type="pxt-on-start" id="[rkkis.gs@};{J6Y2!%H" x="786" y="-47"><statement name="HANDLER"><block type="synth_set_volume" id="DiQkBjw]`b%pmsV+5}g8"><value name="volume"><shadow type="math_number_minmax" id="krML4ix)Ze|`#0^X+Nbf"><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></block></statement></block><block type="device_forever" id="s1:*F?n1xMyqVMiDvBFm" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="1_HL_x3v_tF@zF(3p_#G"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="I8A=t~XKG|(#48ZPD=lv"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="3I*f*(ZEhhqo{~#C!6-k"><field name="name">DigitalPin.P0</field></block></value><value name="B"><shadow type="math_number" id="OyBKuOzaWXqdK-YUVJJ*"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="kQ(CiXX4H(tSDO[`({/S"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="controls_repeat_ext" id="YCZqXE#PfKo@c.gdlPR1"><value name="TIMES"><shadow type="math_whole_number" id="![w/EWV5I*[=M;De~r=T"><field name="NUM">5</field></shadow></value><statement name="DO"><block type="playMelody" id="G7A4#J854v2Tp;j;%F+2"><value name="melody"><shadow type="melody_editor" id="4=sOUo*oBS-PNKTNc^}B"><field name="melody">"C5 - C5 - C5 - C5 - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="m[`6]Yb;v58A8GVY8#U1"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">177</field></shadow></value></block></statement></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="~}#]k#_B~p;`_:0Xb0y."><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block></xml>
