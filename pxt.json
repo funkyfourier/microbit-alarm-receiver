@@ -9,7 +9,8 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "NFC.ts"
     ],
     "testFiles": [
         "test.ts"
