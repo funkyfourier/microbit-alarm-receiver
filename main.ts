@@ -80,6 +80,14 @@ godkjenteKort = [
 "ecd6706d"
 ]
 alarmStatus = 1
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . # # # .
+    . . . . .
+    . . . . .
+    `)
+basic.pause(2000)
 basic.forever(function () {
     if (alarmStatus == 1) {
         sjekkAlarm()
