@@ -20,9 +20,7 @@ function visAlarmStatus () {
 function flippAlarmStatus () {
     status = alarmStatus
     if (status == 0) {
-        if (slåttAvKortId == forrigeKortId) {
-            alarmStatus = 1
-        }
+        alarmStatus = 1
     } else {
         alarmStatus = 0
         slåttAvKortId = forrigeKortId
@@ -45,6 +43,18 @@ function lesKort (denneId: string) {
         if (sjekkGodkjentKort(forrigeKortId) == true) {
             flippAlarmStatus()
         }
+    }
+    visAlarmStatus()
+}
+function flippAlarmStatusGammal () {
+    status = alarmStatus
+    if (status == 0) {
+        if (slåttAvKortId == forrigeKortId) {
+            alarmStatus = 1
+        }
+    } else {
+        alarmStatus = 0
+        slåttAvKortId = forrigeKortId
     }
     visAlarmStatus()
 }
