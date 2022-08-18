@@ -77,7 +77,12 @@ godkjenteKort = [
 "ac897449",
 "f3d5bd16",
 "73ebbb16",
-"ecd6706d"
+"ecd6706d",
+"f316c416",
+"d3abba16",
+"d3e1a916",
+"e34aa116",
+"b3b1a816"
 ]
 alarmStatus = 1
 basic.showLeds(`
